@@ -2,5 +2,7 @@ resources:
   - name: myAppRepo
     type: GitRepo
     configuration:
-      gitProvider: myGitHub               # Change to your integration
+      # gitProvider: myGitHub               # Change to your integration
+      # path: myself/myrepo                 # Change to your repo
+      gitProvider: zen1               # Change to your integration
       path: myself/myrepo                 # Change to your repo
