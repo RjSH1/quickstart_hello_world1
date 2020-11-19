@@ -1,0 +1,16 @@
+
+resources:
+  - name: myFirstRepo
+    type: GitRepo
+    configuration:
+      gitProvider: zen1               # Change to your integration
+      path: aaragorn2/quickstart_hello_world1                 # Change to your repo
+      branches:
+        # Specifies which branches will trigger dependent steps
+        include: master
+
+  - name: myPropertyBag
+    type: PropertyBag
+    configuration:
+      commitSha: 1
+      runID: 1
