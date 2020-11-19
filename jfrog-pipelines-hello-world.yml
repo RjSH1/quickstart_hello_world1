@@ -17,7 +17,7 @@ resources:
       
       
 pipelines:
-  - name: my_first_pipeline
+  - name: my_first_pipelineeeeeee
     steps:
       - name: p1_s1
         type: Bash
