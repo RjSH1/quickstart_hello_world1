@@ -5,4 +5,4 @@ resources:
       # gitProvider: myGitHub               # Change to your integration
       # path: myself/myrepo                 # Change to your repo
       gitProvider: zen1               # Change to your integration
-      path: myself/myrepo                 # Change to your repo
+      path: aaragorn2/quickstart_hello_world1                 # Change to your repo
